@@ -1,5 +1,5 @@
 use clap::{Parser, Subcommand};
-use mouser_client::MouserApi;
+use mouser::MouserApi;
 use tokio;
 
 /// Mouser API Command Line Interface
