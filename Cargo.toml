@@ -1,7 +1,10 @@
 [package]
-name = "mouser-client"
+name = "mouser"
 version = "0.1.0"
 edition = "2021"
+license-file = "LICENSE"
+description = "Mouser API Client"
+repository = "https://github.com/boondocklabs/mouser"
 
 [dependencies]
 clap = { version = "4.5.4", features = ["derive"] }
